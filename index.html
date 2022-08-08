@@ -28,7 +28,8 @@
 				</div>
 				<div class="header__right">
 					<div class="header__contacts">
-						<a href="tel:+79584006032" class="header__phone">8 (958) 400-60-32</a>
+						<a href="tel:+79584006032" class="header__phone phone-dp js-modal" data-modal="modal-spec">+7
+							(958) 400-60-32</a>
 						<a href="mailto:zakaz+762494@vektragroup.ru"
 							class="header__email">zakaz+762494@vektragroup.ru</a>
 					</div>
@@ -52,13 +53,13 @@
 						на&nbsp;рынке
 					</h2>
 					<div class="hero__btn">
-						<button class="btn js-modal" data-modal="modal-cost">Узнать стоимость за 60
+						<button class="btn js-modal" data-modal="modal-cost">Узнайте стоимость за 60
 							секунд</button>
 						<p class="hero__btn-text">Поможем с выбором типа панелей для вашего объекта</p>
 					</div>
 				</div>
 				<div class="hero__video">
-					<p class="hero__video-desc">Посмотреть видео о производстве</p>
+					<p class="hero__video-desc">Посмотрите видео о производстве</p>
 					<div class="hero__video-box">
 						<img src="images/hero/video.jpg" alt="video" class="hero__video-image">
 						<a class="play" data-fancybox href="https://www.youtube.com/watch?v=3Ayr2QBI6tk">
@@ -67,9 +68,9 @@
 							</svg>
 						</a>
 					</div>
-					<p class="hero__video-text">Гарантируем качество и низкую стоимость за счёт <b>собственного
+					<p class="hero__video-text">Гарантируем качество и низкую стоимость за счёт <b>
 							автоматизированного производства</b> полного цикла</p>
-					<div class="address">
+					<div class="address tooltip-action">
 						<svg class="address__icon">
 							<use xlink:href="images/svg/sprite.svg#address"></use>
 						</svg>
@@ -81,10 +82,21 @@
 								<li>Самара</li>
 								<li>Казань</li>
 								<li>Челябинск</li>
+								<li>Тула</li>
+								<li>Набережные Челны</li>
+								<li>Ульяновск</li>
 							</ul>
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="hero__bg">
+				<video id="video" autoplay muted>
+					<source src="video/video.ogv" type='video/ogg; codecs="theora, vorbis"'>
+					<source src="video/video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+					<source src="video/video.webm" type='video/webm; codecs="vp8, vorbis"'>
+					Тег video не поддерживается вашим браузером.
+				</video>
 			</div>
 			<a href="#calc" class="hero__scroll scroll">
 				<svg class="hero__scroll-icon">
@@ -150,7 +162,7 @@
 									<label class="checkbox">
 										<input type="radio" name="checkbox" value="2">
 										<div class="checkbox__inner">
-											<img src="images/calc/1/1.png" alt="calc" class="checkbox__image">
+											<img src="images/calc/1/2.png" alt="calc" class="checkbox__image">
 											<div class="checkbox__flex">
 												<i class="checkbox__icon"></i>
 												<span class="checkbox__text">Односкатная крыша</span>
@@ -160,7 +172,7 @@
 									<label class="checkbox">
 										<input type="radio" name="checkbox" value="3">
 										<div class="checkbox__inner">
-											<img src="images/calc/1/1.png" alt="calc" class="checkbox__image">
+											<img src="images/calc/1/3.png" alt="calc" class="checkbox__image">
 											<div class="checkbox__flex">
 												<i class="checkbox__icon"></i>
 												<span class="checkbox__text">Двускатная крыша</span>
@@ -1152,8 +1164,10 @@
 						<div class="calc__item calc__item-10" id="calc-10" data-calc="4">
 							<div class="calc__form">
 								<h3 class="calc__title">Для получения СМС корректно указывайте номер телефона</h3>
-								<input type="tel" class="input" name="phone" placeholder="Ваш номер телефона*" required>
-								<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных
+								<input type="tel" class="input input--tel" name="phone"
+									placeholder="Ваш номер телефона*" required>
+								<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку
+									персональных
 									данных</div>
 							</div>
 							<div class="calc__bottom">
@@ -1181,7 +1195,7 @@
 		</div>
 		<div class="prices">
 			<div class="container">
-				<h2 class="title">Держим цены на панели</h2>
+				<h2 class="title">Держим цены на&nbsp;панели</h2>
 				<p class="desc">Зафиксировали стоимость панелей на уровне 2021 года</p>
 				<div class="prices__items">
 					<div class="prices__item">
@@ -1192,7 +1206,7 @@
 						<div class="prices__item-body">
 							<h3 class="prices__item-name"><strong>Стеновые</strong><br>сэндвич-панели
 							</h3>
-							<p class="prices__item-text">Толщина от 30 мм до 300 мм</p>
+							<p class="prices__item-text">Толщина от&nbsp;30&nbsp;мм до&nbsp;300&nbsp;мм</p>
 						</div>
 						<button class="btn-border js-modal" data-modal="modal-price-1">Скачать прайс-лист</button>
 					</div>
@@ -1203,7 +1217,7 @@
 						</div>
 						<div class="prices__item-body">
 							<h3 class="prices__item-name"><strong>Кровельные</strong><br>сэндвич-панели</h3>
-							<p class="prices__item-text">Толщина от 30 мм до 300 мм</p>
+							<p class="prices__item-text">Толщина от&nbsp;30&nbsp;мм до&nbsp;300&nbsp;мм</p>
 						</div>
 						<button class="btn-border js-modal" data-modal="modal-price-2">Скачать прайс-лист</button>
 					</div>
@@ -1213,8 +1227,8 @@
 							<div class="prices__item-price">от 1070 ₽/м<sup>2</sup></div>
 						</div>
 						<div class="prices__item-body">
-							<h3 class="prices__item-name"><strong>Нестандартные</strong><br>сэндвич-панели
-								<i class="info">
+							<h3 class="prices__item-name "><strong>Нестандартные</strong><br>сэндвич-панели
+								<i class="info tooltip-action">
 									<div class="tooltip">
 										<ul class="tooltip__list">
 											<li>Угловые; </li>
@@ -1225,7 +1239,7 @@
 									</div>
 								</i>
 							</h3>
-							<p class="prices__item-text">Толщина от 30 мм до 300 мм</p>
+							<p class="prices__item-text">Толщина от&nbsp;30&nbsp;мм до&nbsp;300&nbsp;мм</p>
 						</div>
 						<button class="btn-border js-modal" data-modal="modal-price-3">Скачать прайс-лист</button>
 					</div>
@@ -1235,7 +1249,7 @@
 						</div>
 						<div class="prices__item-body">
 							<h3 class="prices__item-name"><strong>Доборные элементы</strong></h3>
-							<p class="prices__item-text">Всегда в наличии</p>
+							<p class="prices__item-text">Всегда в&nbsp;наличии</p>
 						</div>
 						<button class="btn-border js-modal" data-modal="modal-price-4">Скачать прайс-лист</button>
 					</div>
@@ -1245,7 +1259,7 @@
 						</div>
 						<div class="prices__item-body">
 							<h3 class="prices__item-name"><strong>Фасонные элементы</strong></h3>
-							<p class="prices__item-text">Длина до 4,5 м</p>
+							<p class="prices__item-text">Длина до&nbsp;4,5 м</p>
 						</div>
 						<button class="btn-border js-modal" data-modal="modal-price-5">Скачать прайс-лист</button>
 					</div>
@@ -1255,7 +1269,7 @@
 						</div>
 						<div class="prices__item-body">
 							<h3 class="prices__item-name"><strong>Профлист</strong></h3>
-							<p class="prices__item-text">Толщина от 0,3 до 1,0 мм</p>
+							<p class="prices__item-text">Толщина от&nbsp;0,3 до&nbsp;1,0&nbsp;мм</p>
 						</div>
 						<button class="btn-border js-modal" data-modal="modal-price-6">Скачать прайс-лист</button>
 					</div>
@@ -1292,7 +1306,7 @@
 									<img src="images/types/3.png" alt="icon">
 								</div>
 							</div>
-							<h3 class="types__item-name"><strong>PIR</strong><br>Пенополиизоцианурат</h3>
+							<h3 class="types__item-name"><strong>PIR</strong><br><span>Пенополиизоцианурат</span></h3>
 						</div>
 						<div class="types__item" data-fancybox data-src="#type4">
 							<div class="types__item-icon">
@@ -1305,7 +1319,7 @@
 					</div>
 				</div>
 				<div class="types__btn">
-					<button class="btn">
+					<button class="btn js-modal" data-modal="modal-comp">
 						Посмотреть сравнение
 						<svg class="btn__icon-settings">
 							<use xlink:href="images/svg/sprite.svg#settings"></use>
@@ -1330,7 +1344,8 @@
 					</ul>
 					<form class="get__form">
 						<div class="get__form-flex">
-							<input type="tel" placeholder="Ваш номер телефона*" name="phone" class="input" required>
+							<input type="tel" placeholder="Ваш номер телефона*" name="phone" class="input input--tel"
+								required>
 							<label class="file">
 								<input type="file" name="file">
 								<span class="file__box">
@@ -1342,7 +1357,8 @@
 							</label>
 						</div>
 						<button class="btn">Получить индивидуальный прайс</button>
-						<p class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных</p>
+						<p class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных
+							данных</p>
 					</form>
 					<div class="get__manager">
 						<img src="images/get/manager.png" alt="manager" class="get__manager-image">
@@ -1356,7 +1372,7 @@
 		</div>
 		<div class="stock">
 			<div class="container">
-				<h2 class="title">Сэндвич-панели в наличии на складе</h2>
+				<h2 class="title">Сэндвич-панели в&nbsp;наличии на&nbsp;складе</h2>
 				<div class="stock__content">
 					<div class="stock__list">
 						<div class="stock__item">
@@ -1616,8 +1632,7 @@
 										<div class="works__item-result">
 											<h4 class="works__item-subtitle">Результат:</h4>
 											<p class="works__item-text">Клиент сэкономил на закупке сэндвич-панелей
-												<span>1
-													642 500 </span>
+												<span>1 642 500 руб</span>
 											</p>
 										</div>
 									</div>
@@ -1792,7 +1807,7 @@
 								<div class="works__item-inner">
 									<div class="works__item-image">
 										<img src="images/works/8.jpg" alt="works">
-										<div class="works__item-price">Экономия <span>3 870 410 ₽</span></div>
+										<div class="works__item-price">Экономия <span>312 200 ₽</span></div>
 									</div>
 									<div class="works__item-info">
 										<div class="works__item-box">
@@ -2325,12 +2340,6 @@
 							</a>
 						</div>
 						<div class="team__slider-item">
-							<a href="images/team/6-big.jpg" data-fancybox="team" class="team__slider-inner">
-								<img src="images/team/6.jpg" alt="team">
-								<div class="zoom"><i></i></div>
-							</a>
-						</div>
-						<div class="team__slider-item">
 							<a href="images/team/7-big.jpg" data-fancybox="team" class="team__slider-inner">
 								<img src="images/team/7.jpg" alt="team">
 								<div class="zoom"><i></i></div>
@@ -2376,7 +2385,8 @@
 		<div class="advantages">
 			<div class="container">
 				<h2 class="title">Ваше здание будет, как новое<br><span>на протяжении 50&nbsp;лет</span></h2>
-				<p class="desc">Внимательно относимся к производственному процессу от его старта до упаковки готового
+				<p class="desc">Внимательно относимся к производственному процессу от&nbsp;его старта до&nbsp;упаковки
+					готового
 					изделия</p>
 				<div class="advantages__content">
 					<div class="advantages__list">
@@ -2428,11 +2438,12 @@
 					</div>
 					<button class="btn js-modal" data-modal="modal-main-2">Записаться на экскурсию</button>
 				</div>
+				<img src="images/advantages/bg.png" alt="bg" class="advantages__bg">
 			</div>
 		</div>
 		<div class="quality">
 			<div class="container">
-				<h2 class="title">Вы можете быть на 100% уверены<br>в качестве сэндвич-панелей вектра</h2>
+				<h2 class="title">Вы можете быть на 100% уверены<br>в&nbsp;качестве сэндвич-панелей вектра</h2>
 				<div class="quality__content">
 					<img src="images/quality.png" alt="quality" class="quality__image">
 					<div class="quality__items">
@@ -2457,22 +2468,34 @@
 				<div class="guarantee__info">
 					<h2 class="guarantee__title">Гарантия до 25 лет</h2>
 					<p class="guarantee__text">Наши панели соответствуют ГОСТ и&nbsp;высоким европейским стандартам</p>
-					<a href="javascript:;" data-fancybox-trigger="reviews" class="guarantee__link">
+					<a href="javascript:;" data-fancybox-trigger="certificates" class="guarantee__link">
 						<span class="zoom"><i></i></span>
 						<span class="guarantee__link-text">Посмотрите наши сертификаты, подтверждающие качество</span>
 					</a>
 				</div>
 				<img src="images/guarantee.png" alt="guarantee" class="guarantee__image">
+				<div class="certificates">
+					<a data-fancybox="certificates" rel="cetrificates" href="images/certificates/1.jpg"></a>
+					<a data-fancybox="certificates" rel="cetrificates" href="images/certificates/2.jpg"></a>
+					<a data-fancybox="certificates" rel="cetrificates" href="images/certificates/3.jpg"></a>
+					<a data-fancybox="certificates" rel="cetrificates" href="images/certificates/4.jpg"></a>
+					<a data-fancybox="certificates" rel="cetrificates" href="images/certificates/5.jpg"></a>
+				</div>
 			</div>
 		</div>
 		<div class="bonus">
 			<div class="container">
 				<h2 class="title">Всё ещё сомневаетесь?</h2>
-				<p class="desc">Дарим 4 бонусные услуги на сумму 44 000 рублей</p>
+				<p class="desc">Дарим 4 бонусные услуги на&nbsp;сумму 44&nbsp;000&nbsp;рублей</p>
 				<div class="bonus__list">
 					<div class="bonus__item">
 						<h3 class="bonus__item-title">Проектирование раскладки панелей</h3>
-						<a href="#" class="bonus__item-link">Подробнее об услуге</a>
+						<div class="bonus__item-link tooltip-action">
+							Подробнее об услуге
+							<div class="tooltip">
+								Составим монтажную схему крепления сэндвич-панелей по&nbsp;вашему проекту.
+							</div>
+						</div>
 						<div class="bonus__price">
 							<p class="bonus__price-old">9 000 ₽</p>
 							<p class="bonus__price-new">0 ₽</p>
@@ -2480,7 +2503,13 @@
 					</div>
 					<div class="bonus__item">
 						<h3 class="bonus__item-title">Проектирование фасонных элементов</h3>
-						<a href="#" class="bonus__item-link">Подробнее об услуге</a>
+						<div class="bonus__item-link tooltip-action">
+							Подробнее об услуге
+							<div class="tooltip">
+								Предусмотрим все фасонные (доборные) элементы именно для вашего здания. Подскажем, как
+								сделать вид здания эстетичнее.
+							</div>
+						</div>
 						<div class="bonus__price">
 							<p class="bonus__price-old">3 000 ₽</p>
 							<p class="bonus__price-new">0 ₽</p>
@@ -2488,7 +2517,13 @@
 					</div>
 					<div class="bonus__item">
 						<h3 class="bonus__item-title">Шеф-монтаж</h3>
-						<a href="#" class="bonus__item-link">Подробнее об услуге</a>
+						<div class="bonus__item-link tooltip-action">
+							Подробнее об услуге
+							<div class="tooltip">
+								На крупные объекты на&nbsp;сутки отправим своего специалиста для контроля
+								и&nbsp;организационно-технического руководства процессом монтажа.
+							</div>
+						</div>
 						<div class="bonus__price">
 							<p class="bonus__price-old">25 000 ₽</p>
 							<p class="bonus__price-new">0 ₽</p>
@@ -2496,7 +2531,13 @@
 					</div>
 					<div class="bonus__item">
 						<h3 class="bonus__item-title">Аудит вашего проекта</h3>
-						<a href="#" class="bonus__item-link">Подробнее об услуге</a>
+						<div class="bonus__item-link tooltip-action">
+							Подробнее об услуге
+							<div class="tooltip">
+								Выполним доскональную проверку вашей монтажной схемы крепления сэндвич-панелей,
+								оптимизируем ее для минимизации отходов и&nbsp;вашей экономии.
+							</div>
+						</div>
 						<div class="bonus__price">
 							<p class="bonus__price-old">7 000 ₽</p>
 							<p class="bonus__price-new">0 ₽</p>
@@ -2515,7 +2556,8 @@
 		</div>
 		<div class="gift">
 			<div class="container">
-				<h2 class="title">отточили технологию, Научились не допускать ошибки и теперь <span>готовы делиться
+				<h2 class="title">отточили технологию, Научились не&nbsp;допускать ошибки и&nbsp;теперь <span>готовы
+						делиться
 						секретами</span></h2>
 				<div class="gift__wrap">
 					<p class="gift__text">Заполните заявку, и&nbsp;мы подарим вам <strong> инструкцию по&nbsp;избежанию
@@ -4588,7 +4630,8 @@
 						либо
 						напишите нам по&nbsp;номеру телефона:</p>
 					<div class="help__phone">
-						<a href="tel:+79587603267" class="help__phone-num">8 (958) 760-32-67</a>
+						<a href="tel:+79587603267" class="help__phone-num phone-dp js-modal" data-modal="modal-spec">+7
+							(958) 760-32-67</a>
 						<a href="https://wa.me/79587603267" target="_blank" class="help__whatsapp"></a>
 					</div>
 					<p class="help__text">или просто оставьте свой контакт, мы&nbsp;самостоятельно свяжемся с&nbsp;вами
@@ -4620,7 +4663,8 @@
 					</a>
 					<div class="footer__box">
 						<div class="footer__contacts">
-							<a href="tel:+79584006032" class="footer__phone">8 (958) 400-60-32</a>
+							<a href="tel:+79584006032" class="footer__phone phone-dp js-modal"
+								data-modal="modal-spec">+7 (958) 400-60-32</a>
 							<a href="mailto:zakaz+762494@vektragroup.ru"
 								class="footer__email">zakaz+762494@vektragroup.ru</a>
 						</div>
@@ -4662,8 +4706,9 @@
 				</div>
 			</div>
 		</footer>
-		<div class="callback">
-			<a href="tel:+79584006032" class="btn-border">Позвонить <span>8 (958) 400-60-32</span></a>
+		<div class="callback callback--active">
+			<a href="tel:+79584006032" class="btn-border phone-dp js-modal" data-modal="modal-spec">Позвонить <span>+7
+					(958) 400-60-32</span></a>
 		</div>
 	</div>
 	<div class="modal" id="modal" style="display: none;">
@@ -4684,7 +4729,8 @@
 				<h3 class="modal__right-title">Уточнить наличие</h3>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефона*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите номер телефона*"
+						reqquired>
 					<select name="option" class="select" placeholder="Укажите, что вас интересует">
 						<option value="Стеновые сэндвич-панели">Стеновые сэндвич-панели</option>
 						<option value="Кровельные сэндвич-панели">Кровельные сэндвич-панели</option>
@@ -4694,7 +4740,7 @@
 						<option value="Профлист">Профлист</option>
 					</select>
 					<button class="btn">Уточнить наличие</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -5412,13 +5458,15 @@
 							<div class="modal-cost__inputs">
 								<label class="label">
 									<span class="label__text">Ваш номер телефона:</span>
-									<input type="tel" name="phone" class="input" placeholder="+7 (999) 000-00-00">
+									<input type="tel" name="phone input--tel" class="input"
+										placeholder="+7 (999) 000-00-00">
 								</label>
 								<label class="label">
 									<span class="label__text">Ваш Email:</span>
 									<input type="email" name="email" class="input" placeholder="mail@mail.ru">
 								</label>
-								<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных
+								<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку
+									персональных
 									данных</div>
 							</div>
 						</div>
@@ -5430,7 +5478,7 @@
 								</svg>
 								Назад
 							</button>
-							<button type="submit" class="btn modal-cost__btn">
+							<button type="submit" class="btn modal-cost__btn modal-cost__btn--submit">
 								Дальше
 								<svg class="btn-arrow">
 									<use xlink:href="images/svg/sprite.svg#arrow"></use>
@@ -5488,7 +5536,7 @@
 					<p>Подберите нужные Вам материалы и&nbsp;оборудование. Покупать их&nbsp;вместе всегда выгоднее. Вы
 						экономите наше время – мы&nbsp;экономим Ваши деньги.</p>
 				</div>
-				<img src="images/logo-black.png" alt="logo" class="modal-cost__logo">
+				<img src="images/logo-black.svg" alt="logo" class="modal-cost__logo">
 			</div>
 			<div class="modal-cost__manager">
 				<img src="images/modal/manager.png" alt="manager" class="modal-cost__manager-image">
@@ -5502,8 +5550,8 @@
 	<div class="modal-thanks" id="modal-thanks" style="display: none;">
 		<div class="modal-thanks__body">
 			<div class="modal-thanks__left">
-				<h3 class="modal-thanks__title"><span>Спасибо,</span>что оставили заявку на&nbsp;расчет сэндвич-панелей,
-					С&nbsp;вами скоро свяжется менеджер</h3>
+				<h3 class="modal-thanks__title"><span>Спасибо,</span>что оставили заявку.<br>С&nbsp;вами скоро свяжется
+					менеджер</h3>
 				<p class="modal-thanks__text">А пока посмотрите небольшой ролик о&nbsp;компании и&nbsp;производстве</p>
 				<a href="https://www.youtube.com/channel/UCqd3W29T3otRJPQ04srdXCQ" target="_blank"
 					class="btn">Посмотрите наш YouTube-канал</a>
@@ -5511,10 +5559,8 @@
 			<div class="modal-thanks__right">
 				<div class="modal-thanks__video">
 					<img src="images/modal/video.jpg" alt="video" class="modal-thanks__video-image">
-					<a class="play" data-fancybox href="https://www.youtube.com/watch?v=3Ayr2QBI6tk">
-						<svg class="play__icon">
-							<use xlink:href="images/svg/sprite.svg#play"></use>
-						</svg>
+					<a class="play" data-fancybox href="https://youtu.be/jHFKqWWcTdM">
+						<img src="images/svg/youtube-play.svg" alt="play" class="play__icon-youtube">
 					</a>
 				</div>
 				<a href="https://www.youtube.com/channel/UCqd3W29T3otRJPQ04srdXCQ" target="_blank"
@@ -5557,10 +5603,11 @@
 				<h3 class="modal__right-title">Скачать прайс-лист</h3>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефона*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите номер телефона*"
+						reqquired>
 					<input type="email" class="input" name="email" placeholder="Введите ваш email*" reqquired>
 					<button class="btn">Скачать прайс-лист</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -5580,10 +5627,11 @@
 				<h3 class="modal__right-title">Скачать прайс-лист</h3>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефона*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите номер телефона*"
+						reqquired>
 					<input type="email" class="input" name="email" placeholder="Введите ваш email*" reqquired>
 					<button class="btn">Скачать прайс-лист</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -5603,10 +5651,11 @@
 				<h3 class="modal__right-title">Скачать прайс-лист</h3>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефона*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите номер телефона*"
+						reqquired>
 					<input type="email" class="input" name="email" placeholder="Введите ваш email*" reqquired>
 					<button class="btn">Скачать прайс-лист</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -5626,10 +5675,11 @@
 				<h3 class="modal__right-title">Скачать прайс-лист</h3>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефона*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите номер телефона*"
+						reqquired>
 					<input type="email" class="input" name="email" placeholder="Введите ваш email*" reqquired>
 					<button class="btn">Скачать прайс-лист</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -5649,10 +5699,11 @@
 				<h3 class="modal__right-title">Скачать прайс-лист</h3>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефона*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите номер телефона*"
+						reqquired>
 					<input type="email" class="input" name="email" placeholder="Введите ваш email*" reqquired>
 					<button class="btn">Скачать прайс-лист</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -5672,10 +5723,11 @@
 				<h3 class="modal__right-title">Скачать прайс-лист</h3>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефона*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите номер телефона*"
+						reqquired>
 					<input type="email" class="input" name="email" placeholder="Введите ваш email*" reqquired>
 					<button class="btn">Скачать прайс-лист</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -5718,9 +5770,10 @@
 				<p class="modal__right-text">Укажите ваш номер телефона и&nbsp;наш специалист свяжется с&nbsp;вами</p>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефона*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите номер телефона*"
+						reqquired>
 					<button class="btn">Заказать</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -5763,9 +5816,10 @@
 				<p class="modal__right-text">Укажите ваш номер телефона и&nbsp;наш специалист свяжется с&nbsp;вами</p>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефона*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите номер телефона*"
+						reqquired>
 					<button class="btn">Заказать</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -5808,9 +5862,10 @@
 				<p class="modal__right-text">Укажите ваш номер телефона и&nbsp;наш специалист свяжется с&nbsp;вами</p>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефона*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите номер телефона*"
+						reqquired>
 					<button class="btn">Заказать</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -5853,9 +5908,10 @@
 				<p class="modal__right-text">Укажите ваш номер телефона и&nbsp;наш специалист свяжется с&nbsp;вами</p>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефона*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите номер телефона*"
+						reqquired>
 					<button class="btn">Заказать</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -5898,9 +5954,10 @@
 				<p class="modal__right-text">Укажите ваш номер телефона и&nbsp;наш специалист свяжется с&nbsp;вами</p>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефона*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите номер телефона*"
+						reqquired>
 					<button class="btn">Заказать</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -5943,9 +6000,10 @@
 				<p class="modal__right-text">Укажите ваш номер телефона и&nbsp;наш специалист свяжется с&nbsp;вами</p>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефона*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите номер телефона*"
+						reqquired>
 					<button class="btn">Заказать</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -5970,7 +6028,8 @@
 				<h3 class="modal__right-title">Получить расчет</h3>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите ваш номер телефон*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите ваш номер телефон*"
+						reqquired>
 					<label class="file">
 						<input type="file" name="file">
 						<span class="file__box">
@@ -5981,7 +6040,7 @@
 						</span>
 					</label>
 					<button class="btn">Получить расчет</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -6006,7 +6065,8 @@
 				<h3 class="modal__right-title">Получить расчет</h3>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите ваш номер телефон*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите ваш номер телефон*"
+						reqquired>
 					<label class="file">
 						<input type="file" name="file">
 						<span class="file__box">
@@ -6017,7 +6077,7 @@
 						</span>
 					</label>
 					<button class="btn">Получить расчет</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -6042,7 +6102,8 @@
 				<h3 class="modal__right-title">Получить расчет</h3>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите ваш номер телефон*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="Введите ваш номер телефон*"
+						reqquired>
 					<label class="file">
 						<input type="file" name="file">
 						<span class="file__box">
@@ -6053,7 +6114,7 @@
 						</span>
 					</label>
 					<button class="btn">Получить расчет</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -6075,9 +6136,10 @@
 				<h3 class="modal__right-title">Начать знакомство</h3>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефон*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="введите номер телефона*"
+						reqquired>
 					<button class="btn">Начать знакомство</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -6099,11 +6161,12 @@
 				<h3 class="modal__right-title">Записаться на экскурсию</h3>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефон*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="введите номер телефона*"
+						reqquired>
 					<input type="text" class="input input--date" name="date" placeholder="Укажите желаемую дату"
 						onfocus="(this.type='date')" onblur="(this.type='text')">
 					<button class="btn">Записаться</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -6126,9 +6189,10 @@
 				<h3 class="modal__right-title">Получить образцы</h3>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефон*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="введите номер телефона*"
+						reqquired>
 					<button class="btn">Получить образцы</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -6174,9 +6238,10 @@
 				<h3 class="modal__right-title">Получить бонус</h3>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефон*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="введите номер телефона*"
+						reqquired>
 					<button class="btn">Получить бонус</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -6216,9 +6281,10 @@
 							</span>
 						</label>
 					</div>
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефон*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="введите номер телефона*"
+						reqquired>
 					<button class="btn">Получить инструкцию</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -6238,9 +6304,10 @@
 				<p class="modal__right-text">Укажите ваш номер телефона, и&nbsp;Вадим свяжется с&nbsp;вами</p>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефон*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="введите номер телефона*"
+						reqquired>
 					<button class="btn">Созвониться</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
 			</div>
@@ -6260,11 +6327,163 @@
 				<p class="modal__right-text">Укажите ваш номер телефона, и&nbsp;Вадим свяжется с&nbsp;вами</p>
 				<form class="modal__form">
 					<input type="text" class="input" name="name" placeholder="Введите ваше имя">
-					<input type="tel" class="input" name="phone" placeholder="Введите номер телефон*" reqquired>
+					<input type="tel" class="input input--tel" name="phone" placeholder="введите номер телефона*"
+						reqquired>
 					<button class="btn">Оставить заявку</button>
-					<div class="agree">Отправляя данную заявку, вы даете согласие на обработку персональных данных
+					<div class="agree">Отправляя данную заявку, вы даете согласие на&nbsp;обработку персональных данных
 					</div>
 				</form>
+			</div>
+		</div>
+	</div>
+	<div class="modal modal--comp" id="modal-comp" style="display: none;">
+		<div class="modal-comp">
+			<h3 class="modal-comp__title">Выберите правильный наполнитель для сэндвич-панели</h3>
+			<div class="modal-comp__table">
+				<div class="modal-comp__head">
+					<div class="modal-comp__col"></div>
+					<div class="modal-comp__col">
+						<img src="images/modal/comp/1.png" alt="icon" class="modal-comp__image">
+						<p class="modal-comp__subtitle">Минеральная<br>вата</p>
+					</div>
+					<div class="modal-comp__col">
+						<img src="images/modal/comp/2.png" alt="icon" class="modal-comp__image">
+						<p class="modal-comp__subtitle">PUR (ППУ)</p>
+					</div>
+					<div class="modal-comp__col">
+						<img src="images/modal/comp/3.png" alt="icon" class="modal-comp__image">
+						<p class="modal-comp__subtitle">PIR (ППИ)</p>
+					</div>
+					<div class="modal-comp__col">
+						<img src="images/modal/comp/4.png" alt="icon" class="modal-comp__image">
+						<p class="modal-comp__subtitle">Пенополистирол<br>(ППС)</p>
+					</div>
+				</div>
+				<div class="modal-comp__main">
+					<div class="modal-comp__body">
+						<div class="modal-comp__row">
+							<div class="modal-comp__col">
+								<img src="images/modal/comp/icon-1.svg" alt="icon" class="modal-comp__icon">
+							</div>
+							<div class="modal-comp__col">Наиболее простой материал. Используется в 70%
+								быстровозводимых зданий в&nbsp;РФ и&nbsp;Казахстане.<br>Но в&nbsp;зависимости
+								от&nbsp;метода производства может прослужить долго, а&nbsp;может развалиться через
+								1,5&nbsp;года.</div>
+							<div class="modal-comp__col">Незаменимый вариант для&nbsp;помещений с&nbsp;высокой
+								влажностью и/или холодильных складов. Это современный материал постепенно замещает
+								минеральную вату.</div>
+							<div class="modal-comp__col">Самый технологичный материал, максимальное сохранение
+								тепла, максимальная не&nbsp;орючесть для пенных наполнителей.</div>
+							<div class="modal-comp__col">Самая экономичная цена. Обладает маленьким весом
+								и&nbsp;легок в&nbsp;монтаже. </div>
+						</div>
+						<div class="modal-comp__row">
+							<div class="modal-comp__col">
+								<img src="images/modal/comp/icon-2.svg" alt="icon" class="modal-comp__icon">
+							</div>
+							<div class="modal-comp__col">
+								Для чего:<br>
+								- Административные здания<br>
+								- Модульные магазины<br>
+								- Коровники/Птичники<br>
+								- Производственные быстровозводимые здания и&nbsp;заводы<br>
+								- Ангары, гаражи, бытовки
+							</div>
+							<div class="modal-comp__col">
+								Для чего:<br>
+								- Автомойки<br>
+								- Бассейны<br>
+								- Холодильные камеры<br>
+								- Убойные цеха<br>
+								- Ангары (некоторые)
+							</div>
+							<div class="modal-comp__col">
+								Для чего:<br>
+								- Овоще/Зернохранилища<br>
+								- Фармацевтика<br>
+								- Холодильные камеры<br>
+								- Влажные помещения
+							</div>
+							<div class="modal-comp__col">
+								Для чего:<br>
+								- Автомойки<br>
+								- Бытовки, гаражи<br>
+								- Временные здания<br>
+								- Торговые павильоны
+							</div>
+						</div>
+						<div class="modal-comp__row">
+							<div class="modal-comp__col">
+								<img src="images/modal/comp/icon-3.svg" alt="icon" class="modal-comp__icon">
+							</div>
+							<div class="modal-comp__col">Тёплые</div>
+							<div class="modal-comp__col">Очень тёплые</div>
+							<div class="modal-comp__col">Очень тёплые</div>
+							<div class="modal-comp__col">Тёплые</div>
+						</div>
+						<div class="modal-comp__row">
+							<div class="modal-comp__col">
+								<img src="images/modal/comp/icon-4.svg" alt="icon" class="modal-comp__icon">
+							</div>
+							<div class="modal-comp__col">Требуется исключить попадания влаги в&nbsp;утеплитель,
+								т.к.&nbsp;после нескольких циклов зима/лета утеплитель придет в&nbsp;негодность
+							</div>
+							<div class="modal-comp__col">Абсолютно влагостойкие</div>
+							<div class="modal-comp__col">Абсолютно влагостойкие</div>
+							<div class="modal-comp__col">Влагостойкие</div>
+						</div>
+						<div class="modal-comp__row">
+							<div class="modal-comp__col">
+								<img src="images/modal/comp/icon-5.svg" alt="icon" class="modal-comp__icon">
+							</div>
+							<div class="modal-comp__col">Высокая огнестойкость - основная причина популярности
+								наполнителя. EI 180 / REI 180</div>
+							<div class="modal-comp__col">Низкая огнестойкость - при&nbsp;воздействии огня
+								на&nbsp;протяжении более 15&nbsp;минут возможно горение
+								EI&nbsp;15&nbsp;/&nbsp;REI&nbsp;15</div>
+							<div class="modal-comp__col">Средняя огнестойкость - содержит специальные присадки -
+								пирены, которые способствуют огнестойкости. EI&nbsp;45&nbsp;/&nbsp;REI&nbsp;45</div>
+							<div class="modal-comp__col">Низкая огнестройкость. Класс горючести Г3 и&nbsp;Г4.
+								Способен гореть до&nbsp;5&nbsp;минут после устранения источника огня.</div>
+						</div>
+						<div class="modal-comp__row">
+							<div class="modal-comp__col">
+								<img src="images/modal/comp/icon-6.svg" alt="icon" class="modal-comp__icon">
+							</div>
+							<div class="modal-comp__col">Более 50 лет</div>
+							<div class="modal-comp__col">Более 50 лет</div>
+							<div class="modal-comp__col">Более 50 лет</div>
+							<div class="modal-comp__col">Более 50 лет</div>
+						</div>
+						<div class="modal-comp__row">
+							<div class="modal-comp__col">
+								<img src="images/modal/comp/icon-7.svg" alt="icon" class="modal-comp__icon">
+							</div>
+							<div class="modal-comp__col">~ 23 кг/м2</div>
+							<div class="modal-comp__col">~ 11 кг/м2</div>
+							<div class="modal-comp__col">~ 11 кг/м2</div>
+							<div class="modal-comp__col">~ 10,5 кг/м2</div>
+						</div>
+						<div class="modal-comp__row">
+							<div class="modal-comp__col">
+								<img src="images/modal/comp/icon-8.svg" alt="icon" class="modal-comp__icon">
+							</div>
+							<div class="modal-comp__col">от 5 лет до 25 лет</div>
+							<div class="modal-comp__col">от 5 лет до 25 лет</div>
+							<div class="modal-comp__col">от 5 лет до 25 лет</div>
+							<div class="modal-comp__col">от 5 лет до 25 лет</div>
+						</div>
+						<div class="modal-comp__row">
+							<div class="modal-comp__col">
+								<img src="images/modal/comp/icon-9.svg" alt="icon" class="modal-comp__icon">
+							</div>
+							<div class="modal-comp__col">Средняя стоимость</div>
+							<div class="modal-comp__col">Стоимость выше средней</div>
+							<div class="modal-comp__col">Стоимость выше средней</div>
+							<div class="modal-comp__col">Низкая стоимость</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
